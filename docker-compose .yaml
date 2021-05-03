@@ -1,0 +1,7 @@
+version: "3"
+services:
+  pyapp:
+    build: ""
+    image: dimafrost/pyapp
+    ports:
+      - 8080:8080
